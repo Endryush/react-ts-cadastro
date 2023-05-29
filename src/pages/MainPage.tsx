@@ -13,7 +13,7 @@ export default function MainPage({ api }: IAxios) {
   async function fetchData () {
     try {
       const response = await api.get('/users')
-
+      alert(response.data)
       setAllUsers(response.data)
     } catch (error) {
       console.error(error)
