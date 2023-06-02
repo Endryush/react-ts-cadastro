@@ -1,0 +1,14 @@
+@import '~bootstrap/scss/bootstrap';
+@import '../../styles/variables';
+
+.navbar {
+  background-color: $primary-color-purple; // 9370DB // 4B0082 // 8A2BE2 / 9966CC  / DA70D6
+  
+  .nav-link {
+    color: white;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
