@@ -3,7 +3,7 @@ import RegisterForm from '../../components/Form';
 
 export default function RegisterPage({ api }: IAxios) {
   return (
-    <div className='container'>
+    <div className='container col-md-4'>
       <h1 className='main-title mt-4 mb-4'>
         Usuários
       </h1>

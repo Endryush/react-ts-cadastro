@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import IAxios from '../../interfaces/IAxios';
 import MainAlert from '../Alert';
+import './Form.scss'
 
 export default function RegisterForm({ api }: IAxios) {
   const [formData, setFormData] = useState({
@@ -96,8 +97,7 @@ export default function RegisterForm({ api }: IAxios) {
         </Form.Group>
 
         <Button 
-          className='my-2'
-          variant="primary" 
+          className='btn-bg-secondary my-3'
           type="submit"
         >
           Enviar

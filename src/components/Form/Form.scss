@@ -1,0 +1,8 @@
+@import '../../styles/variables';
+
+.btn-bg-secondary {
+  background-color: $secondary-color-purple;
+  border-color: $primary-color-purple;
+  color: $primary-color-purple;
+  float: right;
+}
